@@ -176,3 +176,214 @@ nav li a{
 .planet-lover-images{
   position: relative;
 }
+/* deal styles */
+.discripon-padd{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.deal-discripton{
+  margin-top: 0px;
+  /* margin-bottom: 15px; */
+}
+.deal-titles{
+  margin-bottom: 15px;
+}
+.deal-section{
+  text-align: center;
+}
+.deals-3flower{
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+.deal-bblom{
+  position: relative;
+  border-radius: 13px;
+  overflow: hidden;
+}
+.deal-bblom-title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dea-gap{
+  margin-top: 28px;
+}
+.bloom-ana-row{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.deal-bblom-title a{
+  color: white;
+}
+
+.Subscribe-section{
+  text-align: center;
+  margin: -8px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.join-title{
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+.news-letter{
+  margin: 100px 0px;
+  align-items:center;
+  padding: 200px 0px;
+}
+form{
+  display: block;
+  
+}
+form input[type="email"]{
+  width: 644px;
+  height: 40px;
+  font-weight: normal;
+  font-size: 14px;
+  border: none;
+  
+}
+
+form input[placeholder="Write email"]{
+  padding-left: 20px;
+}
+form input[type="submit"]{
+  color: white;
+  background-color: #E95A08;
+  border: none;
+  padding: 13.3px 60px;
+  padding-top: 14px;
+  margin-left: -4px;
+}
+footer{
+  margin-bottom: 70px;
+  /* text-align: center; */
+  
+}
+.trying-50{
+  width: 25%;
+}
+.trying-50 ul li{
+  list-style: none;
+  margin-bottom: 25px;
+}
+.footer-container{
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.alien-icon img{
+  text-align: center;
+  width: 30px;
+  margin-left: 25px;
+}
+
+/* .deal-pic{
+  opacity: 0.6;
+} */
+/* Iphone 14 Pro Max */
+
+@media (max-width: 575.98px) {
+  
+  .hsa{
+    display: none;
+  }
+  nav{
+    margin: 18px 26px 28px 26px;
+  }
+  nav img{
+    width: 63px;
+    height: 38px;
+  }
+
+  .banner-container{
+   flex-direction: column-reverse;
+   margin: 0px;
+   padding: 0px;
+  }
+  .banner-pic{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .banner-collumn{
+    padding: 0px;
+    margin: 10px 28px;
+  }
+  .banner-titles{
+    font-weight: bold;
+    font-size: 34px;
+  }
+  .banner-description{
+    font-weight: normal;
+    font-size: 14px;
+  }
+  body{
+    margin: 0px;
+  }
+  .cards{
+    gap: 0px;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .CLLH{
+    display: none;
+  }
+  .card-pic{
+  width: 180px;
+  height: auto;
+  }
+  .card-titls{
+  font-weight: normal;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 18px;
+  }
+  .card-price{
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 1px;
+  margin-bottom: 12px;
+  }
+  .btc-cart{
+  background-color: #E95A08;
+  color: white;
+  border: none;
+  padding: 15px 42px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 50px;
+  }
+  .card-lily{
+    margin: 0px;
+    padding: 0px;
+
+  }
+  .Our-plant-titls{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 27px;
+}
