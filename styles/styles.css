@@ -57,3 +57,29 @@ nav li{
 nav li a{
   text-decoration: none;
 }
+/* Banner Styles */
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  max-width: 1140px;
+  
+}
+
+.banner-collumn{
+  padding-top: 162px ;
+}
+.banner-titles{
+  font-weight:bold;
+  font-size: 65px;
+}
+
+.banner-description{
+  font-weight: normal;
+  font-size: 22px;
+}
+.banner-pic{
+  margin-top: 150px;
+  width:570px ;
+  height: 355px;
+}
