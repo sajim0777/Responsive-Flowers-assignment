@@ -16,3 +16,24 @@
   font-weight: <weight>;
   font-style: normal;
 }
+/* shared styles */
+
+.dark-1{
+  color: rgba(37, 36, 50, 1);
+}
+.dark-2{
+  color:rgba(137, 135, 161, 1) ;
+}
+.orang-color{
+  color: #E95A08;
+}
+
+.dark-black{
+  color:rgba(0, 0, 0, 1) ;
+}
+.dark-white{
+  color: rgba(0, 0, 0, 0.712);
+}
+.text-center{
+  text-align: center;
+}
