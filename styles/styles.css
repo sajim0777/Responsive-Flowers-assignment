@@ -16,6 +16,7 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
 /* shared styles */
 
 .dark-1{
@@ -37,6 +38,7 @@
 .text-center{
   text-align: center;
 }
+
 /* nav bar */
 
 nav{
@@ -57,6 +59,7 @@ nav li{
 nav li a{
   text-decoration: none;
 }
+
 /* Banner Styles */
 .banner-container{
   display: flex;
@@ -83,6 +86,7 @@ nav li a{
   width:570px ;
   height: 355px;
 }
+
 /* Section Our Plants */
 .Our-plant{
   text-align: center;
@@ -176,6 +180,7 @@ nav li a{
 .planet-lover-images{
   position: relative;
 }
+
 /* deal styles */
 .discripon-padd{
   max-width: 1140px;
@@ -386,4 +391,76 @@ footer{
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 27px;
+}
+.Our-plant-discription{
+  /* align-items: center; */
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0px 17px 50px 17px;
+ }
+  #badge-position{
+    display: none;
+  }
+  .plant-lover{
+    flex-direction: column;
+  }
+  
+  .plant-lover-review{
+    margin: 0px 20px;
+    padding: 0px 15px;
+  }
+  .store-title{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .store-description{
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .plant-store-max{
+    margin-top: 0px;
+  }
+  .planet-lover-images{
+  position: relative;
+  text-align: center;
+  }
+  .store-pic{
+    width: 398px;
+    height: auto;
+  }
+  .deals-3flower{
+    flex-direction: column;
+  }
+  .deal-section{
+    margin: 0px 50px;
+  }
+  form input[type="email"]{
+  width: 150px;
+  
+  }
+  form input[type="submit"]{
+  padding: 13.3px 30px;
+  
+  }
+  .join-title{
+  font-size: 30px;
+  }
+  .news-letter{
+  margin: 100px 0px;
+  padding: 120px 0px;
+  }
+  .footer-container{
+    flex-direction: column;
+    text-align: justify;
+    margin: 0px 30px;
+    margin-right: 90px;
+  }
+  .trying-50{
+    width: 100%;
+  }
+}
+.deal-bblom img {
+    width: 100%;
+    height: 100%;
 }
