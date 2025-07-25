@@ -37,3 +37,23 @@
 .text-center{
   text-align: center;
 }
+/* nav bar */
+
+nav{
+  display: flex;
+  justify-content:space-between;
+  margin: 30px 150px 0px 150px;
+}
+
+nav ul{
+  display: flex;
+  gap: 48px;
+}
+
+nav li{
+  list-style: none;
+}
+
+nav li a{
+  text-decoration: none;
+}
